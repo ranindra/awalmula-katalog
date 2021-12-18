@@ -1,0 +1,44 @@
+.nav-white {
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+.drop-nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    align-content: center;
+    background: #ffffff;
+    padding: 0 5px 10px;
+    margin: 0 -0.75rem;
+    
+    div {
+        padding: 10px;
+        cursor: pointer;
+        color: #111;
+        font-size: 14px;
+    }
+}
+
+.search-form {
+    display: flex;
+    input {
+        font-size: 13px;
+        border-radius: 10px;
+
+    }
+    .search-btn {
+        background-color: rgb(36, 118, 59);
+        font-size: 13px;
+        border-radius: 10px;
+        border: none;
+        padding: 0 20px;
+        &:hover{
+            background-color: rgb(44, 146, 73);
+        }
+        &:focus{
+            background-color: rgb(44, 146, 73);
+            box-shadow: none;
+        }
+    }
+}
