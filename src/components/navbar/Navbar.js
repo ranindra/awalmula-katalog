@@ -8,7 +8,7 @@ function NavBar(props) {
 
     useEffect(() => {
         setKategori(props.data_kategori);
-        console.log(props.data_kategori);
+        // console.log(props.data_kategori);
     });
 
     return (

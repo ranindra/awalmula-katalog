@@ -28,7 +28,7 @@ function App() {
       "Content-Type": "application/xml; charset=utf-8"
     }).then(res => {
       //Storing users detail in state array object
-      console.log(res.data.children_data);
+      // console.log(res.data.children_data);
       setKat(res.data.children_data);
     });
   }
@@ -58,7 +58,7 @@ function App() {
   }
 
   function onSelectedIdx(e) {
-    console.log(e.target.id);
+    // console.log(e.target.id);
     setKategori(data_kat[e.target.id]);
   }
 
